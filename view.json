@@ -1,0 +1,26 @@
+{
+	"link": "Ampli VSX",
+	"linkicon": "volume-up",
+	"type": "List",
+	"itemType": "Input",
+	"list": [{"type"  :"button",
+			  "itemId":"increaseSound",
+			  "event" :"clientVSXEvent",
+			  "icon"  :"volume-up"},
+			 {"type"  :"button",
+			  "itemId":"decreaseSound",
+			  "event" :"clientVSXEvent",
+			  "icon"  :"volume-down"},
+			 {"type"  :"button",
+			  "itemId":"muteSound",
+			  "event" :"clientVSXEvent",
+			  "icon"  :"volume-off"},
+			 {"type"  :"button",
+			  "itemId":"muteOffSound",
+			  "event" :"clientVSXEvent",
+			  "icon"  :"play"},
+			 {"type"  :"range",
+			  "itemId":"setVolumeSound",
+			  "event" :"clientVSXEvent"}
+			  ] 
+}
